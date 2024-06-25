@@ -1,0 +1,15 @@
+1.Install cookiecutter
+pip Install cookiecutter
+
+2.Create cookiecutter template
+cookiecutter -c v1 http://github.com/drivendata/cookiecutter-data-science 
+
+3.Create virtual enviornment
+python -m venv myenv
+
+4.Activate virtual enviornment
+myenv\Scripts\activate
+deactivate
+pip list -- to check dependencies
+
+5.Delete unnecessary files
