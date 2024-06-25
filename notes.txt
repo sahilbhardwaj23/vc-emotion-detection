@@ -33,7 +33,12 @@ git remote add origin https://github.com/sahilbhardwaj23/vc-emotion-detection.gi
 9.Push the code on git repo
 git push origin master
 
-10.Now add python file one by one and push it on git repo
+10.Now add python file one by one and commit
 git status
 git add .
-git commit -m "add cookiecutter template"
+git commit -m "add step name"
+
+11.Add yaml file and commit
+
+12.Add dependencies in requiremnents.txt
+pip install -r requiremnents.txt
