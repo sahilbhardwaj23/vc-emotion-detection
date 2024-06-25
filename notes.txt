@@ -13,3 +13,24 @@ deactivate
 pip list -- to check dependencies
 
 5.Delete unnecessary files
+
+6. git init  -- intialize git
+a new file .gitignore is created
+myenv
+models
+reports
+git wil not track these files
+
+7.Initial commit
+git status
+git add .
+git commit -m "add cookiecutter template"
+
+8.Create a git repository for the code we will connect this repo to github repo
+git remote add origin repo link
+git remote add origin https://github.com/sahilbhardwaj23/vc-emotion-detection.git
+
+9.Push the code on git repo
+git push origin master
+
+10.Now add python file one by one and push it on git repo
