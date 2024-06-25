@@ -42,3 +42,10 @@ git commit -m "add step name"
 
 12.Add dependencies in requiremnents.txt
 pip install -r requiremnents.txt
+
+13.Freeze the dependencies ---version name of dependencies
+pip freeze > requiremnents.txt
+
+14.intialize dvc
+dvc init
+dvc repro 
