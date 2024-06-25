@@ -58,3 +58,6 @@ now use BOW instead of TfIdf
 commit the new files
 git tag -a v2.0 -m "Release v2 with bow" 
 git push origin master
+
+16.Rollback to previous version
+git checkout tags/v1.0
