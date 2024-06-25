@@ -50,5 +50,11 @@ pip freeze > requiremnents.txt
 dvc init
 dvc repro 
 
-15.Version control
-git tag -a v1.0 -m "Release v1 with tfidf"
+15.Version control tag version 1
+git tag -a v1.0 -m "Release v1 with tfidf" 
+
+now use BOW instead of TfIdf
+
+commit the new files
+git tag -a v2.0 -m "Release v2 with bow" 
+git push origin master
