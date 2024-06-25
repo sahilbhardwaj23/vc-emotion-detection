@@ -49,3 +49,6 @@ pip freeze > requiremnents.txt
 14.intialize dvc
 dvc init
 dvc repro 
+
+15.Version control
+git tag -a v1.0 -m "Release v1 with tfidf"
